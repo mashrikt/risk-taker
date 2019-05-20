@@ -1,29 +1,5 @@
-# risk-taker
+# Risk Taker
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A bare-minimum static SPA that hits the risk-maker Backend's /api/v1/risk-types/1/
+endpoint and displays the response in a form with appropriate widgets. The form
+data is validated and POSTed to /api/v1/risks/.
